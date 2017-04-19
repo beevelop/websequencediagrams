@@ -1,6 +1,6 @@
 {
   "name": "sequencediagrams",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A simple command line tool to create diagrams",
   "main": "lib/index.js",
   "dependencies": {
@@ -8,14 +8,14 @@
     "bluebird": "^2.9.30",
     "commander": "^2.8.1",
     "lodash": "^3.9.3",
-    "websequencediagrams": "^0.0.2"
+    "websequencediagrams": "github:onegini/node-websequencediagrams"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin" : {
-    "sequencediagrams" : "./lib/index.js"
+  "bin": {
+    "sequencediagrams": "./lib/index.js"
   },
   "author": "Florian Schmidt",
   "license": "MIT",
